@@ -23,7 +23,7 @@ import android.os.Parcel;
 import android.os.Parcelable;
 import android.util.AttributeSet;
 import android.widget.Checkable;
-import android.widget.ImageView;
+import android.support.v7.widget.AppCompatImageView;
 
 import com.toaker.common.tlog.TLog;
 
@@ -33,7 +33,7 @@ import net.soulwolf.widget.materialradio.listener.OnStateButtonCheckedListener;
  * author: Soulwolf Created on 2015/7/15 23:45.
  * email : Ching.Soulwolf@gmail.com
  */
-public class MaterialStateButton extends ImageView implements Checkable {
+public class MaterialStateButton extends AppCompatImageView implements Checkable {
 
     private static final int[] CHECKED_STATE_SET = {
             android.R.attr.state_checked

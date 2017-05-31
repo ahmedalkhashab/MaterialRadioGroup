@@ -21,13 +21,13 @@ package net.soulwolf.widget.materialradio.widget;
 import android.content.Context;
 import android.util.AttributeSet;
 import android.widget.Checkable;
-import android.widget.TextView;
+import android.support.v7.widget.AppCompatTextView;
 
 /**
  * author: Soulwolf Created on 2015/7/16 0:40.
  * email : Ching.Soulwolf@gmail.com
  */
-public class MaterialStateText extends TextView implements Checkable {
+public class MaterialStateText extends AppCompatTextView implements Checkable {
 
     private static final int[] CHECKED_STATE_SET = {
             android.R.attr.state_checked
